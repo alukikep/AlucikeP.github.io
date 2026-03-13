@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://alukikep.github.io/AlucikeP.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://alukikep.github.io/AlucikeP.github.io</link></image><lastBuildDate>Fri, 13 Mar 2026 11:44:40 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>饥荒联机版模组开发学习</title><link>https://alukikep.github.io/AlucikeP.github.io/post/ji-huang-lian-ji-ban-mo-zu-kai-fa-xue-xi.html</link><description>游戏架构：ECS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://alukikep.github.io/AlucikeP.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://alukikep.github.io/AlucikeP.github.io</link></image><lastBuildDate>Fri, 13 Mar 2026 11:50:12 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>饥荒联机版模组开发学习</title><link>https://alukikep.github.io/AlucikeP.github.io/post/ji-huang-lian-ji-ban-mo-zu-kai-fa-xue-xi.html</link><description>游戏架构：ECS
 语言：lua
 
 目前理解
@@ -15,4 +15,16 @@ Hooks:
 
 Component:
 可以用于自己写功能模块比如玩家攻击力加成模块或者玩家砍树熟练度模块，起到数据存储管理以及游戏功能添加的作用
+
+目前计划：有栖川夏叶人物模组
+三维 hun/hea/san:150,150,250(待讨论)
+特殊能力：
+1.采集熟练度加成：普通采集－快速采集－快速双倍采集（根据采集次数来决定）
+2.砍树挖矿熟练度加成：
+砍树:1-2-3-4-5倍效率
+挖矿:1-2-3倍效率
+3.力量加成:0.5-2.0，目前本来打算通过举哑铃实现经验值增加，但是哑铃动作组件与沃尔夫冈绑定程度搞不好借用，暂时搁置
+4.阅读魔法宝典获得制作和阅读魔法书的能力
+
+
 。</description><guid isPermaLink="true">https://alukikep.github.io/AlucikeP.github.io/post/ji-huang-lian-ji-ban-mo-zu-kai-fa-xue-xi.html</guid><pubDate>Fri, 13 Mar 2026 11:44:04 +0000</pubDate></item><item><title>test</title><link>https://alukikep.github.io/AlucikeP.github.io/post/test.html</link><description>test。</description><guid isPermaLink="true">https://alukikep.github.io/AlucikeP.github.io/post/test.html</guid><pubDate>Wed, 11 Mar 2026 10:52:28 +0000</pubDate></item></channel></rss>
