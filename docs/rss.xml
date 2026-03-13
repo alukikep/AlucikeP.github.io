@@ -1,2 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://alukikep.github.io/AlucikeP.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://alukikep.github.io/AlucikeP.github.io</link></image><lastBuildDate>Wed, 11 Mar 2026 10:53:03 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>test</title><link>https://alukikep.github.io/AlucikeP.github.io/post/test.html</link><description>test。</description><guid isPermaLink="true">https://alukikep.github.io/AlucikeP.github.io/post/test.html</guid><pubDate>Wed, 11 Mar 2026 10:52:28 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://alukikep.github.io/AlucikeP.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://alukikep.github.io/AlucikeP.github.io</link></image><lastBuildDate>Fri, 13 Mar 2026 11:44:40 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>饥荒联机版模组开发学习</title><link>https://alukikep.github.io/AlucikeP.github.io/post/ji-huang-lian-ji-ban-mo-zu-kai-fa-xue-xi.html</link><description>游戏架构：ECS
+语言：lua
+
+目前理解
+制作物品：
+1.添加prefabfiles
+2.在scripts-prefabs建立prefabname.lua文件
+3.写入资源配置表Assets={}
+4.完成prefab初始化函数fn()，依次添加游戏功能模块（如AddNetwork等），tag(isnt:addtag('xxx')),然后检验是否为主机（本地服务器同时需要的功能已添加完成），接下来添加各种components，比如物品栏物品必须的inventoryitem或者工具物品必须的tool或者equipable等等，升级函数，修复函数，onequip函数等可以写在fn外面
+5.设置完必须的模块后在文件最后return prefab
+
+Hooks:
+可以用于写本来需要写在modmain中的代码，精简modmain提高解耦性并且方便根据需求修改具体功能
+
+Component:
+可以用于自己写功能模块比如玩家攻击力加成模块或者玩家砍树熟练度模块，起到数据存储管理以及游戏功能添加的作用
+。</description><guid isPermaLink="true">https://alukikep.github.io/AlucikeP.github.io/post/ji-huang-lian-ji-ban-mo-zu-kai-fa-xue-xi.html</guid><pubDate>Fri, 13 Mar 2026 11:44:04 +0000</pubDate></item><item><title>test</title><link>https://alukikep.github.io/AlucikeP.github.io/post/test.html</link><description>test。</description><guid isPermaLink="true">https://alukikep.github.io/AlucikeP.github.io/post/test.html</guid><pubDate>Wed, 11 Mar 2026 10:52:28 +0000</pubDate></item></channel></rss>
